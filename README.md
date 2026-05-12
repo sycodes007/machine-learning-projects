@@ -1,37 +1,80 @@
 # Machine Learning Projects
 
-This repository contains beginner machine learning projects implemented using Python and Scikit-learn.
+A collection of beginner machine learning projects built using Python, NumPy, Pandas, Matplotlib, and Scikit-learn as part of my learning journey in Machine Learning and Data Science.
 
-## Projects Included
+This repository includes implementations of:
+- Linear Regression
+- Logistic Regression
+- K-Means Clustering
+- Decision Trees
+- Random Forest
+- AdaBoost
+- Gradient Boosting
 
-### 1. Linear Regression
-- Built a regression model for prediction tasks
-- Learned model fitting and evaluation
+# Projects Included
 
-### 2. Logistic Regression
-- Implemented classification using logistic regression
-- Evaluated performance using accuracy and other metrics
+## 1. Linear Regression
 
-### 3. K-Means Clustering
-- Applied unsupervised learning for clustering data
-- Visualized clusters using graphs
+Implemented Linear Regression from scratch using NumPy and gradient descent.
 
-### 4. Decision Trees
-- Built decision tree models for classification
-- Explored feature-based predictions
+### Features
+- Manual gradient descent implementation
+- MSE and R² evaluation
+- Learning rate and epoch tuning
+  
 
-## Technologies Used
+## 2. Logistic Regression
+
+Built a binary classification model using Logistic Regression.
+
+### Features
+- Sigmoid activation function
+- Cost function implementation
+- Gradient descent optimization
+- Prediction probability calculation
+- Accuracy evaluation
+- Cost function visualization
+  
+
+## 3. K-Means Clustering
+
+Implemented K-Means clustering from scratch for unsupervised learning tasks.
+
+### Features
+- Custom K-Means implementation
+- Elbow method for optimal K selection
+- PCA visualization
+- Cluster center generation
+- Data standardization
+  
+
+## 4. Decision Trees & Ensemble Learning
+
+Implemented Decision Tree models and explored ensemble learning methods.
+
+### Models Used
+- Decision Tree Classifier
+- Random Forest
+- AdaBoost
+- Gradient Boosting
+
+### Evaluation Metrics
+- F1 Score
+- Recall
+- MCC
+- ROC-AUC
+
+### Features
+- Cross-validation
+- Performance comparison
+- Ensemble methods
+- Multi-class classification
+  
+
+# Technologies Used
+
 - Python
-- Pandas
 - NumPy
+- Pandas
 - Matplotlib
 - Scikit-learn
-
-## Learning Outcomes
-- Data preprocessing
-- Model training
-- Model evaluation
-- Supervised and unsupervised learning
-
-## Author
-First-year CSE student exploring Machine Learning and Software Development.
